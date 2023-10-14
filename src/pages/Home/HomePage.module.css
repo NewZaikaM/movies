@@ -1,0 +1,16 @@
+.home {
+	padding: 3rem 5rem;
+	margin-left: 32rem;
+  height: max-content;
+	min-height: 100vh;
+	display: flex;
+  flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media screen and (max-width: 1260px) {
+	.home {
+    margin-left: 0rem;
+  }
+}

@@ -1,0 +1,21 @@
+.slider {
+  display: flex;
+	gap: 1rem;
+	padding: 1rem 0;
+	width: 100%;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+  margin-bottom: 3rem;
+}
+.slider > * {
+  overflow: visible;
+	scroll-snap-align: center;
+}
+.slider::-webkit-scrollbar {
+	display: none;
+}
+.titleSlider {
+  font-family: 'Raleway' !important;
+	margin-bottom: 3rem !important;
+	align-self: flex-start;
+}

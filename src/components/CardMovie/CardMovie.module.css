@@ -1,0 +1,35 @@
+.card {
+	font-family: 'Raleway', sans-serif;
+	position: relative !important;
+	z-index: 1;
+}
+.close {
+	font-family: inherit;
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	font-weight: 900;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.cardAction {
+	font-family: inherit;
+	max-height: 100rem;
+	height: max-content;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img {
+	height: max-content;
+	object-fit: fill !important;
+}
+.title {
+	font-family: inherit !important;
+	height: 5rem;
+}
+.overview {
+	font-family: inherit !important;
+}

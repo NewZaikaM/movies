@@ -1,0 +1,42 @@
+.stepper {
+	width: 80rem;
+	margin: 0 auto;
+}
+
+.stepper span {
+	font-family: inherit;
+	font-size: 1.2rem;
+}
+
+.stepper svg {
+	font-weight: 600;
+	transform: scale(2.1);
+}
+.stepper text {
+	font-size: .8rem;
+}
+
+@media screen and (max-width: 1260px) {
+	.stepper {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 680px) {
+	.stepper span {
+		font-size: 1.5rem;
+	}
+	.stepper svg {
+		transform: scale(2.5);
+	}
+	.stepper text {
+		font-size: 1.2rem;
+	}
+}
+@media screen and (max-width: 480px) {
+	.stepper span {
+		font-size: 1.8rem;
+	}
+	.stepper svg {
+		transform: scale(3);
+	}
+}

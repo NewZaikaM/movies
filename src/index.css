@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 400;
+	max-width: 192rem;
+	background: #0d0d0d;
+}
+
+@media screen and (max-width: 1260px) {
+	html {
+		font-size: 12px;
+	}
+}	
+@media screen and (max-width: 680px) {
+	html {
+		font-size: 8px;
+	}
+}
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 6px;
+	}
+}
+
+

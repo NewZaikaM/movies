@@ -1,0 +1,31 @@
+.signIn {
+	height: 50rem;
+	width: 80rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+}
+
+@media screen and (max-width: 1260px) {
+	.signIn {
+		width: 100%;
+	}
+}	
+@media screen and (max-width: 980px) {
+	.signIn {
+		font-size: 1.5rem;
+	}
+}	
+@media screen and (max-width: 680px) {
+	.signIn {
+		font-size: 2rem;
+	}
+}
+@media screen and (max-width: 480px) {
+	.signIn {
+		height: 70rem;
+	}
+}

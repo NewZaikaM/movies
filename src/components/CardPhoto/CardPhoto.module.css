@@ -1,0 +1,17 @@
+.card {
+	height: max-content;
+}
+.card img{
+  width: 30rem;
+	height: 45rem;
+  display: block;
+	object-fit: scale-down;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10rem;
+	font-family: 'Raleway', sans-serif !important;
+	text-align: center;
+}

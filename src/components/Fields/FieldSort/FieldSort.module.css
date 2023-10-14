@@ -1,0 +1,15 @@
+.item {
+  font-family: 'Raleway' !important;
+}
+
+@media screen and (max-width: 680px) {
+  .item {
+    font-size: 2rem !important;
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  .item {
+    font-size: 2.5rem !important;
+  }
+}

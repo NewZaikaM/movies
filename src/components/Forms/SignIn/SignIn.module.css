@@ -1,0 +1,24 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	width: 100%;
+}
+
+.submit {
+	align-self: flex-start;
+}
+
+.link {
+	color: #90caf9;
+	text-decoration: none;
+	align-self: flex-end;
+}
+.link:hover {
+	color: #90caf9;
+}
+.link:visited {
+	color: #90caf9;
+}

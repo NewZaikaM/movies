@@ -1,0 +1,12 @@
+.paginationSmall {
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+	.paginationBig {
+		display: none;
+	}
+	.paginationSmall {
+		display: block;
+	}
+}

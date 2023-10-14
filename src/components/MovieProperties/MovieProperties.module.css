@@ -1,0 +1,17 @@
+.movieProperties {
+	font-family: inherit;
+	height: 100%;
+	margin-bottom: 5rem;
+}
+.movieProperties p,
+h1 {
+	margin-top: 3rem;
+	font-family: inherit;
+}
+
+@media screen and (max-width: 980px) {
+	.movieProperties p,
+	h1 {
+		font-size: 2rem;
+	}
+}
